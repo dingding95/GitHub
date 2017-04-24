@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+form {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 1px solid gainsboro;
+  padding: 100px;
+}
+form input{
+    width: 400px;
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+form span{
+  color: cadetblue;
+  float: right;
+}
+form #submit{
+  width: 420px;
+  text-align: center;
+  color: white;
+  background-color: cadetblue;
+}
