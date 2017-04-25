@@ -16,15 +16,3 @@ module.exports = router;
 
 
 
-// var btn = document.getElementById("submit");
-// btn.onclick = function () {
-//
-//     var router = express.Router();
-// // 3.路由访问，回调函数
-//     router.get('/',function (req,res) {
-//         res.render('loginSuccess');
-//     });
-// // 4.模块导出 路由
-//     module.exports = router;
-//
-// }
