@@ -17,9 +17,10 @@ form input{
     border-radius: 5px;
     background-color: gainsboro;
 }
-form span{
+form a{
   color: cadetblue;
   float: right;
+    text-decoration: none;
 }
 form #submit{
   width: 420px;

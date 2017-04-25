@@ -7,17 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel='stylesheet' href='/stylesheets/login.css' />
-
 </head>
 <body>
-
     <form action="loginSuccess" method="post">
-        <input type="text" name="username" class="username" placeholder="请输入已验证手机/邮箱">
-        <input type="text" name="userPassword" class="userPassword" placeholder="请输入密码">
-        <a href="update.ejs">忘记密码</a>
-        <input type="submit" value="登录" id="submit">
+        <input type="text" name="oldPsw"  placeholder="当前密码">
+        <input type="text" name="newPsw"  placeholder="新密码">
+        <input type="text" name="newPsw"  placeholder="确认密码">
+        <input type="submit" value="保存" id="submit">
     </form>
 
 </body>
-
 </html>
